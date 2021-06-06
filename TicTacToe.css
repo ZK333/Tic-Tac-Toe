@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to right,#e30606,#f57b02);
+}
+.Board>button{
+    background-color:rgba(255,255,255,0.4);
+    cursor:pointer;
+    font-size:2rem;
+    align-content: center;
+    outline:none;
+}
+
+.Board{
+    box-sizing:border-box;
+    font-family: Gotham Rounded, SansSerif;
+    font-weight:normal;
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    min-height:100vh;
+    font-size:2rem;
+    grid-template-columns:repeat(3, 175px);
+    grid-template-rows:repeat(4, 175px);
+
+}
+
+.Board>button:hover{
+    background-color: rgba(173, 169, 169, 0.6);
+}
+
+.instructions{
+    grid-column: 1 / -1;
+    align-content: center;
+    justify-content: center;
+}
+
+.h1{
+    font-family: Gotham Rounded, SansSerif;
+}
+
+.Settings{
+
+
+}
+
+.Settings>button{
+background-color: #de6666;
+    font-family: Gotham Rounded, SansSerif;
+    font-weight:normal;
+    width:100px;
+    height:30px;
+    color:black;
+}
