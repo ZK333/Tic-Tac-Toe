@@ -10,7 +10,7 @@ body{
 }
 
 .Board{
-    box-sizing:border-box;
+  border-radius: 4px;
     font-family: Gotham Rounded, SansSerif;
     font-weight:normal;
     display:grid;
